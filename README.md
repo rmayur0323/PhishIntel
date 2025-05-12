@@ -70,13 +70,13 @@ Mayur Koregaonkar
 
 Anjali Yadav
 
-**Team:-** Phishing Frenzy
+**Team:-** **Phishing Frenzy**
 
-**This project was developed as part of an academic research initiative focused on AI in cybersecurity.**
+**This project was developed as part of the Digisuraksha Parhari Foundation Internship Program**
 
 **📜 License**
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License.**
 
 See the LICENSE file for more details.
 
