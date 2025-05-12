@@ -1,5 +1,5 @@
 # 🔐 PhishIntel
-The Phishing Website Detector is a lightweight, Python-based cybersecurity tool developed to identify and flag potentially dangerous phishing websites. It uses supervised machine learning models trained on real-world URL data to classify web addresses as either legitimate or phishing attempts. The project demonstrates the practical application of AI in cybersecurity and is designed to be educational, accessible, and extendable for research or real-world deployment.
+**PhishIntel** is an AI-based Phishinng Website Detector cybersecurity tool designed to help users **identify whether a given URL or file is legitimate or a phishing attempt.** It leverages machine learning algorithms **to analyze structural and behavioral characteristics of URLs and files** to make real-time classification decisions. The project demonstrates the practical application of AI in cybersecurity and is designed to be educational, accessible, and extendable for research or real-world deployment.
 
 **🧠 Key Features**
 
@@ -72,11 +72,12 @@ Anjali Yadav
 
 **Team:-** Phishing Frenzy
 
-This project was developed as part of an academic research initiative focused on AI in cybersecurity.
+**This project was developed as part of an academic research initiative focused on AI in cybersecurity.**
 
 **📜 License**
 
 This project is licensed under the MIT License.
+
 See the LICENSE file for more details.
 
 
