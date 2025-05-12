@@ -37,6 +37,49 @@ The Phishing Website Detector is a lightweight, Python-based cybersecurity tool 
 | Scikit-learn  | Model training and prediction          |
 | Pickle        | Model serialization (`model.pkl`)      |
 
+**👨‍💻 Project Structure**
+csharp
+
+Copy
+
+Edit
+
+phishing-detector/
+
+├── app.py            # Flask app controller
+
+├── model.pkl            # Trained ML model
+
+├── url_extractor.py     # URL feature extraction script
+
+├── templates/
+
+│   └── index.html       # Web form interface
+
+├── static/
+
+│   └── style.css        # Basic CSS styling
+
+├── requirements.txt     # Python dependencies
+
+└── README.md            # Project documentation
+
+**👩‍💻 Authors**
+
+Mayur Koregaonkar
+
+Anjali Yadav
+
+**Team:-** Phishing Frenzy
+
+This project was developed as part of an academic research initiative focused on AI in cybersecurity.
+
+**📜 License**
+
+This project is licensed under the MIT License.
+See the LICENSE file for more details.
+
+
 **🚀 Installation**
 🐍 Using Python:
 ```bash
@@ -44,4 +87,6 @@ git clone https://github.com/yourusername/phishing-detector.git
 cd phishing-detector
 pip install -r requirements.txt
 python app.py
+
+
 
