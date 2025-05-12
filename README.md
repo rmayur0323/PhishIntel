@@ -1,5 +1,5 @@
-# PhishIntel
-PhishIntel is an AI-based Phishing Website Detector an cybersecurity tool designed to help users identify whether a given URL or file is legitimate or a phishing attempt. It leverages machine learning algorithms to analyze structural and behavioral characteristics of URLs and files to make real-time classification decisions. The project demonstrates the practical application of AI in cybersecurity and is designed to be educational, accessible, and extendable for research or real-world deployment.
+# 🔐 Phishing Website Detector using AI
+The Phishing Website Detector is a lightweight, Python-based cybersecurity tool developed to identify and flag potentially dangerous phishing websites. It uses supervised machine learning models trained on real-world URL data to classify web addresses as either legitimate or phishing attempts. The project demonstrates the practical application of AI in cybersecurity and is designed to be educational, accessible, and extendable for research or real-world deployment.
 
 🧠 Key Features
 🌐 URL-Based Phishing Detection
@@ -24,43 +24,19 @@ Displays result and highlights the features that triggered detection.
 Built for clarity, speed, and user-friendly experience.
 
 🛠️ Tech Stack
-Tech	Usage
-Python	Core programming language
-Flask	Backend server and API routes
-HTML/CSS	Frontend form and output rendering
-Scikit-learn	Model training and prediction
-Pickle	Model serialization (model.pkl)
+| Tech          | Usage                                  |
+|---------------|----------------------------------------|
+| Python        | Core programming language             |
+| Flask         | Backend server and API routes         |
+| HTML/CSS      | Frontend form and output rendering     |
+| Scikit-learn  | Model training and prediction          |
+| Pickle        | Model serialization (`model.pkl`)      |
 
 🚀 Installation
 🐍 Using Python:
-bash
-Copy
-Edit
+```bash
 git clone https://github.com/yourusername/phishing-detector.git
 cd phishing-detector
 pip install -r requirements.txt
 python app.py
-👨‍💻 Project Structure
-csharp
-Copy
-Edit
-phishing-detector/
-├── app.py               # Flask app controller
-├── model.pkl            # Trained ML model
-├── url_extractor.py     # URL feature extraction script
-├── templates/
-│   └── index.html       # Web form interface
-├── static/
-│   └── style.css        # Basic CSS styling
-├── requirements.txt     # Python dependencies
-└── README.md            # Project documentation
-👩‍💻 Authors
-Your Name
-
-Your Team/Institution (optional)
-This project was developed as part of an academic research initiative focused on AI in cybersecurity.
-
-📜 License
-This project is licensed under the MIT License.
-See the LICENSE file for more details.
 
