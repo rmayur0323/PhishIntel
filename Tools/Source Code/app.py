@@ -6,7 +6,7 @@ import google.generativeai as genai
 app = Flask(__name__)
 
 # Configure Google API Key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyBIgf4L0lNEuqZE8bhDT9T492YPy8hXUao"  # Replace with your actual key
+os.environ["GOOGLE_API_KEY"] = "Enter your API Key"  # Replace with your actual key
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 model = genai.GenerativeModel("gemini-1.5-flash")
 
